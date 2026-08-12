@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+    <style>
+        .li1{
+            display: inline;
+            background:linear-gradient(blue,yellow);
+            width: 100px;
+            height: 50px;
+            padding:5px;
+            margin:0 10px;
+            border: 1px solid black;
+            transition: background 0.5s;
+
+        }
+        .li2{
+            display: inline;
+            background:linear-gradient(yellow,blue);
+            width: 100px;
+            height: 50px;
+            padding:5px;
+            margin:0 10px;
+            border: 1px solid black;
+            transition: background 0.5s;
+
+        }
+
+        .li1:hover{
+            background:linear-gradient(yellow);
+
+        }
+        .li2:hover{
+            background:linear-gradient(blue);
+
+        }
+        li{
+            cursor:pointer;
+        }
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+              <li class="li1">Link button</li>
+              <li class="li2">Link button</li>
+        </ul>
+    </div>
+</body>
+</html>
